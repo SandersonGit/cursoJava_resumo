@@ -14,27 +14,7 @@ public class Inteiro {
         // A lógica vem neste escopo
     }
 }
-Em Java, há uma palavra-chave para cada tipo de variável. Por exemplo:
 
-int para inteiro
-Dicas Importantes
-Ao imprimir no console em Java, utilize o seguinte formato:
 
-java
-Copy code
-System.out.println("Aqui vem o que você quer imprimir");
-Não esqueça do ponto e vírgula (;), que é obrigatório em Java.
-
-Algumas dicas de atalhos úteis:
-
-Digitar Sys + Ctrl + Tab irá completar automaticamente o método sempre que estiver disponível.
-Ctrl + S para salvar.
-Ctrl + F11 para executar o código.
-Ctrl + D para apagar uma linha inteira do código.
-Exemplo de Semântica de Variável
-java
-Copy code
-int idade = 13;
-Isso conclui o primeiro capítulo.
 
 
