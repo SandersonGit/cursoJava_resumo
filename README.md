@@ -15,6 +15,11 @@ public class Inteiro {
     }
 }
 
+Em Java, há uma palavra-chave para cada tipo de variável. Por exemplo:
+
+int para inteiro
+Dicas Importantes
+Ao imprimir no console em Java, utilize o seguinte formato:
 
 
 
