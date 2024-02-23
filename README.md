@@ -35,7 +35,7 @@ Não esqueça do ponto e vírgula (`;`), que é obrigatório em Java.
 
 Algumas dicas de atalhos úteis:
 
-- Digitar `Sys` + `Ctrl` + `Tab` irá completar automaticamente o método sempre que estiver disponível.
+- Digitar `Sysout` + `Ctrl` + `Tab` irá completar automaticamente o método sempre que estiver disponível.
 - `Ctrl` + `S` para salvar.
 - `Ctrl` + `F11` para executar o código.
 - `Ctrl` + `D` para apagar uma linha inteira do código.
