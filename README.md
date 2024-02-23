@@ -75,12 +75,9 @@ double numeroInteiro = 5;
 ```
 
 Isso conclui o segundo capítulo.
-```
 
 
-
-# Casting em Java
-
+Casting em Java
 O casting em Java é utilizado para forçar a troca de tipagem de um número, geralmente convertendo um número flutuante para inteiro, de acordo com a decisão do programador.
 
 Devido ao fato de Java ser uma linguagem fortemente tipada, ela lança exceções caso você queira realizar esse tipo de conversão. Um exemplo é quando tentamos atribuir um número real a uma variável inteira sem realizar o casting adequado:
