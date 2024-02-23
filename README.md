@@ -77,7 +77,51 @@ double numeroInteiro = 5;
 Isso conclui o segundo capítulo.
 ```
 
-Esses são os trechos reescritos em Markdown. Caso tenha mais alguma solicitação ou dúvida, fique à vontade para perguntar!
+
+
+# Casting em Java
+
+O casting em Java é utilizado para forçar a troca de tipagem de um número, geralmente convertendo um número flutuante para inteiro, de acordo com a decisão do programador.
+
+Devido ao fato de Java ser uma linguagem fortemente tipada, ela lança exceções caso você queira realizar esse tipo de conversão. Um exemplo é quando tentamos atribuir um número real a uma variável inteira sem realizar o casting adequado:
+
+```java
+double salario = 2700.50;
+int valor = salario; // Isso resultará em um erro de tipagem
+```
+
+Isso ocorre porque a variável `salario` é do tipo `double` (número real) e a tentativa de convertê-la para um inteiro resultaria na perda de dados.
+
+Para forçar o Java a realizar a conversão mesmo assim, devemos utilizar o casting da seguinte forma:
+
+```java
+double salario = 2700.50;
+int valor = (int) salario; // Realiza a conversão forçada
+```
+
+Neste exemplo, o `(int)` funciona como um operador de casting, semelhante a um `ToNumber` ou `ToString` em JavaScript.
+
+Além do `double`, existem mais três tipos de variáveis para números em Java:
+
+- **long:**
+  
+  ```java
+  long numeroGrande = 535434443343453535L; // Para números muito grandes, acima de 2 terabytes
+  ```
+
+- **short:**
+  
+  ```java
+  short numeroPequeno = 2133; // Para números menores
+  ```
+
+- **byte:**
+  
+  ```java
+  byte numeroMuitoPequeno = 127; // Até somente 127 bytes
+  ```
+
+Lembre-se sempre de conferir as tipagens, pois o Java não permite riscos de erros relacionados a tipos.
 
 
 
